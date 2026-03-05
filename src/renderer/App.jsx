@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-// Use environment variable for backend URL, fallback to localhost for development
-const API_BASE = import.meta.env.VITE_API_BASE_URL || (import.meta.env.DEV ? 'http://localhost:3001/api' : '/api');
+// Use environment variable for backend URL, fallback to Render backend URL in production
+const API_BASE = import.meta.env.VITE_API_BASE_URL || (import.meta.env.DEV ? 'http://localhost:3001/api' : 'https://gestion-de-stock-backend.onrender.com/api');
 
 // Fonctions d'aide API
 const api = {
