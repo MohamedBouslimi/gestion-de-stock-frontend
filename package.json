@@ -1,0 +1,30 @@
+{
+  "name": "gestion-de-stock-frontend",
+  "version": "1.0.0",
+  "description": "Stock Management Frontend Application (React + Vite)",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "keywords": [
+    "stock",
+    "management",
+    "inventory",
+    "frontend",
+    "react",
+    "vite"
+  ],
+  "author": "Mohamed Bouslimi",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "vite": "^7.3.1"
+  }
+}
